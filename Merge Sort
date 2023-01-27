@@ -18,7 +18,7 @@ public class Main
 	    int mid = arr.length/2; 
 	    int left[] = MergeSort(Arrays.copyOfRange(arr,0,mid));
 	    int right[]  = MergeSort(Arrays.copyOfRange(arr,mid,arr.length));
-	    
+
 	    return merge(left,right);
 	}
 	
